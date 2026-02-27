@@ -1,8 +1,10 @@
 name: Trigger and types
 on: 
  push:
-   branches:
-     - main
+  paths:
+    - 'src/**'
+    - 'my_text.txt'
+    
 jobs:
   Branch:
     name: Testing Branch
