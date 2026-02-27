@@ -1,0 +1,10 @@
+name: Variable-07
+on: workflow_dispatch
+jobs:
+  Test:
+   runs-on: ubuntu-latest
+   steps:
+     - name: My test step
+       run: |
+        echo 'Welcome ${{vars.My_Name}}'
+        echo 'Testing Github Action Code'
