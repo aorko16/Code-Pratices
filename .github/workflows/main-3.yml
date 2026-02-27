@@ -1,0 +1,15 @@
+name: Trigger and types
+on: 
+ push:
+   branches:
+     - main
+jobs:
+  Branch:
+    name: Testing Branch
+    runs-on: ubuntu-latest
+    steps:
+      - name: My Branch
+        run: echo 'Trigger Testing'
+        
+  
+  
