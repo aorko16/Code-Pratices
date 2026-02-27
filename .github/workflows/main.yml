@@ -6,7 +6,7 @@ jobs:
    steps:
      - name: My test step
        run: |
-        echo 'Welcome Aorko'
+        echo 'Welcome Aorko The Screate is ${{secrets.DOCKER_PASSWORD}}'
         echo 'Testing Github Action Code'
         
        
